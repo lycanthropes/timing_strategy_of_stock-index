@@ -7,3 +7,4 @@
 ![image](https://github.com/lycanthropes/timing_strategy_of_50ETF_strategy/blob/preview/images/Training_result.png)
 >>其次，本策略的净值曲线如下：
 ![image](https://github.com/lycanthropes/timing_strategy_of_50ETF_strategy/blob/preview/images/money_curve.png)
+>>策略年化收益率仅有5.43%, 夏普比率0.35。这说明策略仍有改进空间：下一步我计划采用与A股股市相关性更强的AVIX指数（Zheng,Jiang and Chen，2017）作为市场的情绪指标（而非本策略使用的VIX指标）；另外就模型本身而言，我计划进一步改进LSTM模型以更好的寻找AVIX与股指之间存在的关系。
